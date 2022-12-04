@@ -1,0 +1,13 @@
+name: SzuragCobbleX
+version: '${project.version}'
+main: tech.szurag.cobblex.CobbleX
+api-version: 1.19
+authors: [ Szurag ]
+description: CobbleX w najprostszym, a zarazem najlepszym wydaniu <3
+website: szurag.tech
+commands:
+  cobblex:
+    description: Tworzy CobbleX
+    usage: /<command> none or give
+    aliases:
+      - cx
