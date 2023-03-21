@@ -61,8 +61,11 @@ public class RandomItem {
 
             case "oak_log":
                 return new ItemStack(Material.OAK_LOG, (int)(Math.random() * 8 + 17));
-        }
 
-        // return new ItemStack(Material.ENCHANTING_TABLE); prawdopodobnie useless
+
+            default:
+                return new ItemStack(Material.ENCHANTING_TABLE);
+
+        }
     }
 }
