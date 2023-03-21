@@ -63,6 +63,6 @@ public class RandomItem {
                 return new ItemStack(Material.OAK_LOG, (int)(Math.random() * 8 + 17));
         }
 
-        return new ItemStack(Material.ENCHANTING_TABLE);
+        // return new ItemStack(Material.ENCHANTING_TABLE); prawdopodobnie useless
     }
 }
