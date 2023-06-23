@@ -1,1 +1,3 @@
-"# cobblex" 
+# cobblex
+
+Minecraft plugin
